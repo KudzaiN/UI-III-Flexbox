@@ -64,3 +64,231 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body{
+	background:black; 
+}
+.container{
+width: 970px;
+margin: auto;
+background:white;
+}
+header nav {
+	display: inline-block;
+	margin-top:50px;
+	font-size: small;
+}
+header nav a{
+	margin:0 20px;
+	text-decoration: none;
+	color:gray;
+	opacity: 75%;	
+}
+header .logo{
+	margin-left:60px;
+}
+section	h1{
+	font-size:70px;
+	display: inline-block;
+	text-align: center;
+	margin-left: 60px;
+}
+.top-content img{
+	display: inline-block;
+	width: 45%;
+    vertical-align: middle;
+}
+section .text-button{
+	width: 45%;
+	display: inline-block;
+	vertical-align: middle;
+
+}
+.top-content{
+	margin-top:70px;
+}
+.top-content button{
+	margin-left: 120px;
+	font-size:20px;
+	font-family: 'Titillium Web', sans-serif;
+	border: 1px solid black;
+	padding: 0 30px;
+}
+section .features{
+	display:inline-block;
+	width:45%;
+	padding:20px;
+	margin-left:20px;
+}
+section .about{
+	display:inline-block;
+	width:45%;
+	padding:20px;
+}
+section .services{
+	display:inline-block;
+	width:30%;
+	padding:30px;
+	margin-left:10px;
+}
+section .product{
+	display:inline-block;
+	width:32%;
+	padding:40px;
+}
+section .vision{
+	display:inline-block;
+	width:28%;
+	padding: 20px;
+}
+.middle-img{
+	padding: 10px;
+    margin-left:29px;
+	width: 800px;
+}
+.top-line{
+	border: 1px solid black;
+	margin: 50px 87px 50px 40px;
+}
+.bottom-line{
+	border: 1px solid black;
+	margin: 50px 87px 50px 40px;
+}
+.contacts{
+	line-height: 2;
+	padding: 40px;
+}
+.phone-number{
+display: inline-block;	
+}
+.footer{
+	display: inline-block;
+    margin: 60px 350px;
+}
+/** MY CODE STARTS RIGHT HERE**/
+
+
+.service-nav{
+	display: flex;
+	width: 700px;
+    margin-left: -70px;
+	justify-content: space-between;
+}
+.service-nav a{
+	text-decoration: none;
+	color:#808080ab;
+}
+.services-header{
+	display: flex;
+	justify-content: flex-end;
+	flex-direction:row-reverse;
+	align-items: center;
+	margin-left:115px; 
+    padding: 20px 20px 0 0;
+}
+.service-header-img{
+	display: flex;
+	justify-content: center;
+	padding: 25px;
+}
+.services-intro{
+	width: 898px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.services-intro h1{
+	font-size: 25px;
+}
+.snav-item{
+	margin-right: 50px;
+}
+.services-hr{
+	margin: 40px 29px -20px 0;
+}
+.digital-ux-cat{
+	display: flex;
+	justify-content: center;
+	margin:0 20px -25px 0;	
+}
+.web-mark-cat{
+	display:flex;
+	margin:0 20px -25px 0;
+}
+.andriod-ios-cat{
+	display:flex;
+	margin:0 20px 0 0;	
+}
+.digital-design-cat{
+	border: 1px solid black;
+    padding: 20px;
+	margin-left: 40px;
+	margin: 40px;
+	background: #0e0e0e0d;
+}
+.ux-ui-cat{
+	border: 1px solid black;
+    padding: 20px;
+	margin: 40px;
+	background: #0e0e0e0d;
+}
+.digital-marketing-cat{
+	border: 1px solid black;
+    padding: 20px;
+	margin: 40px;
+	background: #0e0e0e0d;
+}
+.web-devo-cat{
+	border: 1px solid black;
+    padding: 20px;
+	margin: 40px;
+	background: #0e0e0e0d;
+}
+.ios-devo-cat{
+	border: 1px solid black;
+    padding: 20px;
+	margin: 40px;
+	background: #0e0e0e0d;
+}
+.android-devo-cat{
+	border: 1px solid black;
+    padding: 20px;
+	margin: 40px;
+	background: #0e0e0e0d;
+}
+.main-content button{
+	margin: 20px 20px 20px 0;
+    padding: 10px 39px 10px 33px;
+    border-radius: 10%;
+    border: 1px solid black;
+}
+.bottom-content{
+	display: flex;
+	padding: 20px;
+}
+.bottom-div{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.services-bottom-hr{
+	margin: 40px 59px 40px 42px;
+}
+.service-list{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.facts-services p{
+	width: 410px;
+	padding: 20px 40px 20px 0;
+}
+.list-items{
+	padding: 7px;
+}
+.copyright-footer{
+	display: flex;
+	justify-content: center;
+	padding:30px;
+}
